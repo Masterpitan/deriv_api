@@ -19,7 +19,7 @@ active_order = st.sidebar.selectbox("Select Active Order", ["ORD-101", "ORD-102"
 
 # Fetch current status for the sidebar
 try:
-    status_res = requests.get(f"http://localhost:8000/order/{active_order}")
+    status_res = requests.get(f"https://deriv-api-7xtq.onrender.com/order/{active_order}")
     if status_res.status_code == 200:
         order_data = status_res.json()
         st.sidebar.markdown("---")
@@ -48,7 +48,7 @@ with tab1:
             st.warning("Please paste a chat log first.")
         else:
             with st.spinner("Agentic Guard is cross-referencing Deriv Policies..."):
-                res = requests.post(f"http://localhost:8000/analyze-trade/{active_order}")
+                res = requests.post(f"https://deriv-api-7xtq.onrender.com/analyze-trade/{active_order}")
                 if res.status_code == 200:
                     data = res.json()
                     
