@@ -1,0 +1,6 @@
+DERIV P2P SECURITY POLICIES:
+1. OFF-PLATFORM COMMUNICATION: All communication must remain within the Deriv P2P chat. Sharing WhatsApp, Telegram, or phone numbers is strictly prohibited.
+2. THIRD-PARTY PAYMENTS: The name on the bank transfer receipt must match the Deriv account holder's name exactly. Third-party payments are a sign of triangulation fraud.
+3. ESCROW PROTECTION: Sellers must never release funds until they have logged into their bank app and confirmed the balance. Screenshots are not final proof.
+4. URGENCY TACTICS: Buyers using high-pressure language (e.g., "Release now or I report you") should be flagged for behavioral risk.
+5. EXTERNAL LINKS: Sharing links to external payment portals or "verification" sites is a critical violation.
